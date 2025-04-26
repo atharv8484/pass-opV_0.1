@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #040215;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    margin-left:1vw ;
+    font-size: 1.7vw;
+}
+inp::placeholder{
+    color: #ffffffa9;
+}
+.form{
+    height: 90%;
+    width: 50%;
+    background-color: #190640;
+    border: 0.1vw solid #8A1ACA;
+    border-radius: 1vw;
+    overflow-y: auto;
+}
+.form::-webkit-scrollbar{
+    display: none;
+}
+.upload_Image_block{
+    margin-top: 2vh;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uploadImage{
+    width: 20%;
+    height: 85%;
+    background-color: #540688;
+    border-radius: 5vw;
+    background-image: url("/public/icons/upload.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 5vw;
+}
+.website_and_email_block ,  .link_and_folder_block{
+    margin-top: 2vw;
+    width: 100%;
+    height: 13%;
+    /* background-color: crimson; */
+    display: flex;
+    gap: 5vw;
+}
+.website , .email , .link , .folder , .email_perameter_block ,  .password_perameter_block{
+    height: 100%;
+    width: 50%;
+    /* background-color: salmon; */
+    display: flex;
+    flex-flow: column;
+}
+#website_inp ,  #email_inp , #link_inp , #folder_inp ,  #email_perameter_inp , #password_perameter_inp{
+    height: 100%;
+    width: 80%;
+    margin-left: 1vw;
+    background-color: #540688;
+    border:0.2vw solid #8A1ACA;
+    border-radius: 1vw;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+}
+.password ,  .userName{
+    margin-top: 2vw;
+    width: 100%;
+    height: 13%;
+    /* background-color: crimson; */
+    display: flex;
+    flex-flow: column;
+}
+#password_inp , #userName_inp{
+    margin-left: 1vw;
+    width: 70%;
+    height: 70%;
+    background-color: #540688;
+    border:0.2vw solid #8A1ACA;
+    border-radius: 1vw;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+}
+
+.saveBtn{
+    width: 100%;
+    height: 8%;
+    /* background-color: crimson; */
+    margin-bottom: 2vw;
+    
+}
+.saveBtn button{
+    height: 100%;
+    width: 15%;
+    float: right;
+    margin-right: 2vw;
+    background-color: #590CDF;
+    border: 0.2vw solid #960CFF;
+    border-radius: 0.5vw;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2vw;
+}

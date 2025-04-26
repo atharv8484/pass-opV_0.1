@@ -1,0 +1,442 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #040215;
+    overflow: hidden;
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+::selection{
+    /* color: #960CFF; */
+    background-color: #590CDF;
+}
+.nav_bar_mainBlock{
+    width:100% ;
+    height: 15%;
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: center;
+}
+.nav_bar_block{
+    width: 97%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.search_mainBlock{
+    height: 100%;
+    width: 40%;
+}
+.searchBlock{
+    height: 100%;
+    display: flex;
+    align-items:center;
+    gap: 1vw;
+}
+.filter_Btn_mainBlock{
+    /* background-color: crimson; */
+    width: 15%;
+    height: 50%;
+
+}
+#filter_Btn{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.7vw;
+    border: none;
+    background-color: #18139C;
+    color: white;
+    font-size: 1.5vw;
+}
+.search_inp_mainBlock{
+    width: 60%;
+    height: 50%;
+    /* background-color: crimson; */
+}
+#search_inp{
+    width: 100%;
+    height: 100%;
+    border-radius: 1vw;
+    background-color: #240669;
+    border: none;
+    padding-left: 0.5vw;
+    font-size: 1.5vw;
+    color: white;
+}
+#search_inp::placeholder{
+    color: rgba(255, 255, 255, 0.452);
+}
+.seearch_btn_mainBlock{
+    width: 10%;
+    height: 50%;
+    background-color: #2B1D79;
+    border-radius: 50vw;
+
+}
+.search_img{
+    width: 50%;
+    height: 50%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('/public/icons/search.png');
+    margin: 1vw;
+}
+/* banner */
+.banner_block{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #960CFF;
+    font-size: 1.5vw;
+}
+/* create button */
+.create_btn_block{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#create_btn{
+    width: 40%;
+    height: 57%;
+    font-size: 2vw;
+    border-radius: 1.3vw;
+    color: white;
+    background-color: #590CDF;
+    border: none;
+}
+/* main block */
+.main_block{
+    /* background-color: crimson; */
+    width: 100%;
+    height: 85%;
+
+}
+/* main */
+.main{
+    width: 97%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3vw;
+    /* background-color: salmon; */
+}
+.companies_list_mainBlock{
+    width: 34%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+}
+#companies_list{
+    width: 95%;
+    height: 100%;
+    overflow-y: auto;
+    /* background-color: orange; */
+}
+#companies_list::-webkit-scrollbar {
+    display: none;
+    
+}
+.companies_mainBlock{
+    width: 100%;
+    height: 20%;
+    margin-top: 1vw;
+    background-color:#310076;
+    border-radius: 1.5vw;
+    display: flex;
+    justify-content: center;
+}
+#companies_block{
+    width: 95%;
+    height: 100%;
+    border-radius: 1.5vw;
+    display: flex;
+    /* justify-content: s; */
+    align-items: center;
+}
+.image_block{
+    height: 75%;
+    width: 25%;
+    /* background-color: #540688; */
+    border-radius: 50%;
+    /* background-image: url("/public/icons/google.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1vw;
+}
+#logo_Image_img{
+    border-radius: 50%;
+
+    width: 8vw;
+    height: 8vw;
+}
+.name_and_userName{
+    width: 75%;
+    height: 80%;
+    /* background-color: rgba(255, 127, 80, 0.5); */
+    display: flex;
+    /* flex-direction: ; */
+    flex-flow: column;
+    gap: 1vw;
+}
+.name{
+    color: white;
+    font-weight: 00;
+    font-size: 3vw;
+    margin-left: 2vw;
+    margin-top: 0.1vh;
+}
+.userName{
+    color: rgba(255, 255, 255, 51%);
+    font-size: 1.2vw;
+    margin-left: 1vw;
+
+
+}
+.info_mainBlock{
+    width: 70%;
+    height: 100%;
+    /* background-color: crimson; */
+    border-radius: 1.5vw;
+    display: flex;
+    align-items: center;
+
+}
+.info{
+    width: 100%;
+    height: 97%;
+    background-color: #0F0032;
+    border-radius: 1.5vw;
+
+}
+.logImage_and_Name_mainBlock{
+    margin-top: 2vh;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    gap: 1vw;
+    /* background-color: cornflowerblue; */
+}
+/* .logImage_and_Name_block{
+    background-color: crimson;
+    width: 20%;
+    height: 100%;
+} */
+.logo_Image{
+    width: 13%;
+    height: 60%;
+    /* background-color: crimson; */
+    border-radius: 50vw;
+    /* background-image: url("/public/icons/google.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.company_name{
+    color: white;
+    font-size: 3vw;
+}
+label{
+    margin-left: 1.5vw;
+    color: white;
+    font-size: 1.5vw;
+}
+.email_and_userName_block{
+    margin-top: 2vh;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    gap: 5vw;
+    /* background-color: crimson; */
+
+}
+.userName_block ,  .email_block{
+    width: 50%;
+    height: 100%;
+    /* background-color: crimson; */
+}
+.userName_text ,  .email_text{
+    margin-left: 1.5vw;
+    width: 85%;
+    height: 60%;
+    border-radius: 1vw;
+    background-color: #540688;
+    border: 0.1vw solid #A100FF;
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw;
+    padding-left: 0.5vw;
+    color: white;
+    font-weight: bold;
+}
+.password_mainBlock{
+    margin-top: 4vh;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-flow: row;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: crimson; */
+}
+.password_block{
+    width: 100%;
+    height: 100%;
+}
+.password_text{
+    margin-left: 1.5vw;
+    width: 80%;
+    height: 60%;
+    border-radius: 1vw;
+    background-color: #540688;
+    border: 0.1vw solid #A100FF;
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw;
+    padding-left: 0.5vw;
+    color: white;
+    font-weight: bold;
+}
+.copy_img_block ,  .see_img_block{
+    width: 10%;
+    height: 50%;
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 1vw; */
+    margin-left: 1vw;
+}
+.copy_img_block img ,  .see_img_block img{
+    width: 2vw;
+}
+.link_and_qrCode_block{
+    margin-top: 2vh;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    /* justify-content: center; */
+    gap: 5vw;
+    /* background-color: crimson; */
+}
+.link_block{
+    width: 50%;
+    height: 100%;
+}
+.link_text{
+    margin-left: 1.5vw;
+    width: 100%;
+    height: 60%;
+    border-radius: 1vw;
+    background-color: #540688;
+    border: 0.1vw solid #A100FF;
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw;
+    padding-left: 0.5vw;
+    color: white;
+    font-weight: bold;
+}
+.qrCode_Block{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    /* background-color: crimson; */
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+.qrCode{
+    margin-top: 1vw;
+    border-radius: 1vw;
+    display: flex;
+    width: 75%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #540688;
+    border: 0.1vw solid #A100FF;
+    font-size: 1.5vw;
+    
+}
+#list_logo{
+    width: 7vw;
+    height: 7vw;
+}
+
+.main2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    height: 65%;
+    width: 30%;
+    /* background-color: #18139C; */
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 1vw; */
+}
+.section_container{
+    width: 100%;
+    height: 100%;
+    /* background-color: sandybrown; */
+    display: flex;
+    flex-flow: column;
+    gap: 1vw;
+}
+
+.qrcodeScan{
+    width: 28vw;
+    height: 40vw;
+    background-color: #310076;
+    padding: 1vw;
+    /* border-radius: 2vw; */
+}
+
+.close_mainBlock{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    background-color: #960CFF;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    color: white;
+    /* border-radius: 1vw; */
+
+}
+#qrImage{
+    width: 100%;
+    height:100%;
+    
+
+    /* scale: 20vw; */
+
+    
+    /* border-radius: 1vw; */
+
+}
+
+
+

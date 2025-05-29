@@ -10,7 +10,7 @@ body{
     overflow: hidden;
 }
 main{
-    width: 100%;
+    width: 80%;
     height: 100%;
 }
 ::selection{
